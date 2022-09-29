@@ -19,16 +19,20 @@
 .container{
     margin: auto 250px;
     text-align: center;
-    /* DEBUG */
-    background-color: blue;
     min-height: 150px;
-}
+    /* DEBUG */
+    /* background-color: blue;*/
+} 
 
 /* lorem rules */
 .lorem::after{
     content: "";
     display: table;
     clear: both;
+}
+
+.lorem{
+    padding: 30px;
 }
 
 /* img rules */
@@ -42,15 +46,21 @@ section img {
     width: 70px;
     float: left;
     vertical-align: middle;
+    display: inline-block;
 }
 
-.role{
-    vertical-align: middle;
-}
 
 /* marco e tutti gli altri */
 .person{
     display: inline-block;
     vertical-align: middle;
-    width: calc(100% / 3);
+    width: calc(30%);
+    padding: 5px
 }
+
+.role{
+    vertical-align: middle;
+    padding: 10px;
+    line-height: 20px;
+}
+
