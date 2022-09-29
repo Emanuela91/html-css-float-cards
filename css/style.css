@@ -7,7 +7,8 @@
     font-size: 13px;
 }
 
-header{
+/* header */
+#main{
     color: rgb(226, 23, 104);
     font-size: 30px;
     text-align: center;
@@ -23,6 +24,33 @@ header{
     min-height: 150px;
 }
 
+/* lorem rules */
+.lorem::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* img rules */
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 section img {
-    width: 85px;
+    width: 70px;
+    float: left;
+    vertical-align: middle;
+}
+
+.role{
+    vertical-align: middle;
+}
+
+/* marco e tutti gli altri */
+.person{
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% / 3);
 }
