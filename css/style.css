@@ -32,7 +32,7 @@
 }
 
 .lorem{
-    padding: 30px;
+    padding: 40px;
 }
 
 /* img rules */
@@ -52,10 +52,13 @@ section img {
 
 /* marco e tutti gli altri */
 .person{
+    background-color: black;
+    color: white;
     display: inline-block;
     vertical-align: middle;
     width: calc(30%);
-    padding: 5px
+    padding: 5px;
+    margin: 10px 5px;
 }
 
 .role{
@@ -64,3 +67,7 @@ section img {
     line-height: 20px;
 }
 
+a{
+    color: rgb(9, 9, 191);
+    text-decoration: none;
+}
