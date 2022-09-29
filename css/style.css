@@ -13,3 +13,16 @@ header{
     text-align: center;
     padding: 20px;
 }
+
+/* container rules */
+.container{
+    margin: auto 250px;
+    text-align: center;
+    /* DEBUG */
+    background-color: blue;
+    min-height: 150px;
+}
+
+section img {
+    width: 85px;
+}
