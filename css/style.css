@@ -36,6 +36,7 @@
 }
 
 /* img rules */
+/* clearfix */
 section::after{
     content: "";
     display: table;
@@ -43,7 +44,7 @@ section::after{
 }
 
 section img {
-    width: 70px;
+    width: 80px;
     float: left;
     vertical-align: middle;
     display: inline-block;
@@ -57,8 +58,8 @@ section img {
     display: inline-block;
     vertical-align: middle;
     width: calc(30%);
-    padding: 5px;
     margin: 10px 5px;
+    box-shadow: 5px 5px #ede9e9;
 }
 
 .role{
@@ -67,6 +68,7 @@ section img {
     line-height: 20px;
 }
 
+/* email */
 a{
     color: rgb(9, 9, 191);
     text-decoration: none;
